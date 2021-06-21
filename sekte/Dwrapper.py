@@ -97,7 +97,7 @@ class Sekte:
             komik = [_.a.get('href') for _ in parsing.find('div', id='chapterlist').findAll('div', class_='eph-num')]
             return mangaObject(
                 {
-                    'title': self.title,
+                    'title': re.findall("title=\"(.*?)\"", self.html.text)[3:][:-2][0],
                     'chapter': komik,
                     'url': self.html.url,
                     'sinopsis': parsing.find('div', attrs={'itemprop': 'description'}).text,

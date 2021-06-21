@@ -1,7 +1,7 @@
 # Install
 
 ```bash
-> pip install sekte
+> pip install sekte2pdf
 ```
 
 # Python Interpreter

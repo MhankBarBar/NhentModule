@@ -3,9 +3,9 @@ from os import path
 base_dir = path.abspath(path.dirname(__file__))
 setup(
   name = 'sekte2pdf',
-  packages = ['manga'],
+  packages = ['sekte'],
   include_package_data=True,
-  version = '0.0.2',    
+  version = '0.0.3',    
   license='MIT',
   description = 'Sekte2Pdf',
   long_description_content_type = 'text/markdown',
@@ -13,7 +13,7 @@ setup(
   author = 'MhankBarBar', # Krypton-Byte
   author_email = 'mhankbarbar@yes.my',
   url = 'https://github.com/MhankBarBar/SekteModule',
-  download_url = 'https://github.com/MhankBarBar/KomikuModule/archive/0.0.1.tar.gz',
+  download_url = 'https://github.com/MhankBarBar/SekteModule/archive/0.0.3.tar.gz',
   keywords = ['manga', 'sektekomik', 'downloader', 'pdf', 'sektekomik downlader'], 
   install_requires=[           
           'pillow',

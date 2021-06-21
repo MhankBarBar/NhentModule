@@ -1,24 +1,20 @@
 # Install
 
 ```bash
-> pip install doujin2pdf
-```
-# Shell
-```bash
-> python -m doujin --nuklir=123456
-> python -m doujin --nuklir=123456 --output=test.pdf
+> pip install sekte
 ```
 
 # Python Interpreter
 ## Save To File
 ```python
->>> import doujin
->>> x=doujin.nhentai("123456").doujin
->>> x.save_to_file(x.title)
+>>> import sekte
+>>> x=sekte.search('fairy').fetch
+>>> x[2].download(chapter=1)
+>>> x.save_to_file('filename.pdf')
 ```
  ## BytesIO
  ```python
  >>> import doujin
->>> x=doujin.nhentai("123456").doujin
->>> x.download()
+>>> x=sekte.search('fairy').fetch
+>>> x[2].download(chapter=1)
 ```

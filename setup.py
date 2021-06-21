@@ -2,17 +2,19 @@ from setuptools import setup, find_packages
 from os import path
 base_dir = path.abspath(path.dirname(__file__))
 setup(
-  name = 'doujin2pdf',        
-  packages = ['doujin'],
+  name = 'sekte2pdf',
+  packages = ['manga'],
   include_package_data=True,
-  version = '0.1',    
-  license='MIT',     
-  description = 'Doujin2pdf', 
-  author = 'Krypton Byte',                  
-  author_email = 'galaxyvplus6434@gmail.com',     
-  url = 'https://github.com/krypton-byte/NhentModule',   
-  download_url = 'https://github.com/krypton-byte/NhentModule/archive/0.0.1.tar.gz',    
-  keywords = ['douji', 'pdf', 'downloader'], 
+  version = '0.0.2',    
+  license='MIT',
+  description = 'Sekte2Pdf',
+  long_description_content_type = 'text/markdown',
+  long_description = open('README.md', 'r').read(),
+  author = 'MhankBarBar', # Krypton-Byte
+  author_email = 'mhankbarbar@yes.my',
+  url = 'https://github.com/MhankBarBar/SekteModule',
+  download_url = 'https://github.com/MhankBarBar/KomikuModule/archive/0.0.1.tar.gz',
+  keywords = ['manga', 'sektekomik', 'downloader', 'pdf', 'sektekomik downlader'], 
   install_requires=[           
           'pillow',
           'requests',

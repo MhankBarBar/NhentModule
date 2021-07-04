@@ -1,3 +1,4 @@
+[![CodeQL](https://github.com/MhankBarBar/SekteModule/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/MhankBarBar/SekteModule/actions/workflows/codeql-analysis.yml)
 # Install
 
 ```bash
